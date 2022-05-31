@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tin Tức - SOICT</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="trangchu.css" />
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    
+  </head>
+  <body>
+    <header>
+      <div class="header_top">
+        <div class="header_inner">
+          <div class="header_text">
+            <img
+              class="logo_header"
+              src="https://soict.hust.edu.vn/wp-content/uploads/logo-soict-hust-1.png"
+              alt=""
+              srcset=""
+            />
+
+            <strong> ĐẠI HỌC BÁCH KHOA HÀ NỘI </strong><br />
+            <br />
+            <strong>TRƯỜNG CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG</strong>
+          </div>
+
+          <div class="flags">
+            <img
+              src="https://a2ztech.a2ztech.vn/wp-content/plugins/polylang-pro/flags/vn.png"
+              alt=""
+              srcset=""
+            />
+
+            <img
+              src="https://a2ztech.a2ztech.vn/wp-content/plugins/polylang-pro/flags/gb.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+
+          <div class="search_header" style="position: relative">
+            <input
+              style="border-radius: 10px; height: 30px"
+              type="search"
+              class="form-control form-control-dark"
+              placeholder="Search..."
+            />
+            <svg
+              style="position: absolute; top: 6px; left: 150px"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <hr
+        style="
+          margin-top: 70px;
+          width: 1500px;
+          background-color: red;
+          height: 10px;
+        "
+      />
+      <ul class="menu">
+        <li>
+          <a href="">Giới Thiệu</a>
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Thông tin chung</a></li>
+                <hr />
+                <li><a href="">Triết lí giáo dục</a></li>
+                <hr />
+                <li><a href="">Cơ cấu tổ chức</a></li>
+                <hr />
+                <li><a href="">Đảng ủy - Hội Đồng Trường</a></li>
+                <hr />
+                <li><a href="">Ban Lãnh Đạo Trường</a></li>
+                <hr />
+                <li><a href="">Các tổ chức đoàn thể</a></li>
+                <hr />
+                <li><a href="">Văn phòng trường</a></li>
+                <hr />
+                <li><a href="">Danh sách cán bộ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Khoa - Trung tâm</a>
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Khoa</a></li>
+                <hr />
+                <li><a href="">Khoa Học Máy Tính</a></li>
+                <hr />
+                <li><a href="">Kĩ thuật máy tính</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Đào tạo</a>
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Giới thiệu chung</a></li>
+                <hr />
+                <li><a href="">Hệ đại học</a></li>
+                <hr />
+                <li><a href="">Hệ thạc sĩ</a></li>
+                <hr />
+                <li><a href="">Hệ Tiến Sĩ</a></li>
+                <hr />
+                <li><a href="">Đào Tạo chứng chỉ</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Nghiên cứu</a>
+
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Giới thiệu chung</a></li>
+                <hr />
+                <li><a href="">Các phòng thí nghiệm</a></li>
+                <hr />
+                <li><a href="">Các đề tài dự án</a></li>
+                <hr />
+                <li><a href="">Công bố khoa học</a></li>
+                <hr />
+                <li><a href="">Tìm chuyên gia ?</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Tuyển sinh</a>
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Kiến tạo tương lai với SoICT</a></li>
+                <hr />
+                <li><a href="">Tuyển sinh 2021</a></li>
+                <hr />
+                <li><a href="">Điểm chuẩn tham khảo</a></li>
+                <hr />
+                <li><a href="">Tuyển sinh đào tạo ngắn hạn</a></li>
+                <hr />
+                <li><a href="">Hỏi đáp về tuyển sinh</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Sinh Viên</a>
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Biểu mẫu và quy định dành cho sinh viên</a></li>
+                <hr />
+                <li><a href="">Cố vấn học tập</a></li>
+                <hr />
+                <li><a href="">Hoạt động sinh viên nghiên cứu khoa học</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Hợp tác đối ngoại</a>
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Giới thiệu chung</a></li>
+                <hr />
+                <li><a href="">Hợp tác với khối hàm lâm</a></li>
+                <hr />
+                <li><a href="">Hợp tác với khối doanh nghiệp</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Cựu sinh viên</a>
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Giới thiệu chung</a></li>
+                <hr />
+                <li><a href="">Tấm gương cựu sinh viên</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Tin tức sự kiện</a>
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Tin tức</a></li>
+                <hr />
+                <li><a href="">Thông báo</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Tuyển dụng</a>
+          <ul class="menu-con">
+            <li>
+              <ul class="box">
+                <li><a href="">Việc làm tại Soict</a></li>
+                <hr />
+                <li><a href="">Việc làm cho sinh viên</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+     
+      </div>
+    </nav>
+
+   <article>
+        <a href="trangchu.html">Trang chủ</a> >> <a href="tintuc.html">Tin tức</a> <br> <br>
+        <h3>TIN TỨC - SỰ KIỆN</h3>  <br>
+
+        <div class="menu_article">
+            <ul>
+                <li>
+                    <a href="">Tin tức</a>
+                    <hr class="hr_menu">
+                </li>
+                <li>
+                    <a href="">- Thông báo</a>
+                     <hr class="hr_menu">
+                </li>
+                 <li>
+                    <a href="">- Tin bài</a>
+                     <hr class="hr_menu">
+                </li>
+
+                <li>
+                    <a href="">Sự kiện</a>
+                    <hr class="hr_menu">
+                </li>
+                <li>
+                    <a href="">- Sựu kiện sắp diễn ra</a>
+                     <hr class="hr_menu">
+                </li>
+                 <li>
+                    <a href="">- Sự kiện đã diễn ra</a>
+                     <hr class="hr_menu">
+                </li>
+
+                <li>
+                    <a href="">SoICT Talks</a>
+                </li>
+            </ul>
+        </div>
+   </article>
+
+   <section>
+       
+        <img src="https://soict.hust.edu.vn/wp-content/uploads/2019/05/a.jpg" alt="" srcset="" width="1000" >
+
+        <div class="section_left">
+
+
+            <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/BKAI-NAVER-Challenge-2022-02.jpg"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong>VÒNG CHUNG KẾT BKAI-NAVER CHALLENGE 2022</strong> <br />
+
+        <span
+          >BKAI-NAVER Challenge 2022 là hoạt động thuộc dự án hợp tác nghiên cứu
+          AI giữa Trung tâm BKAI, Trường CNTT&TT và Tập...</span
+        >
+      </div>
+
+
+
+            <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/05-Hoi-truong.jpg"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong
+          >INNOVATION DAY VÀ CUỘC THI SÁNG TẠO Ý TƯỞNG SINH VIÊN
+          CREATIVE</strong
+        >
+        <br />
+
+        <span
+          >Ngày 14/05/2022, Innovation Day 2022 đã diễn ra thành công với rất
+          nhiều hoạt động, trải nghiệm thú vị, bao gồm: Tọa...</span
+        >
+      </div>
+
+      <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/HT-SV-Ng-Van-Quyen-cover-1.jpg"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong>SOICT đồng hành và hỗ trợ sinh viên Nguyễn Văn Quyền</strong>
+        <br />
+
+        <span
+          >Nguyễn Văn Quyền là một sinh viên lớp KHMT04 K65 thuộc Trường
+          CNTT&TT, Đại học Bách khoa Hà Nội. Hoàn cảnh gia...</span
+        >
+      </div>
+
+      <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/DAT01879.jpg"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong
+          >️TỔNG KẾT ĐẠI HỘI ĐẠI BIỂU ĐOÀN THANH NIÊN TRƯỜNG CÔNG NGHỆ</strong
+        >
+        <br />
+
+        <span
+          >️Vào hồi 14h ngày 07/05/2022 tại Hội trường dốc tòa nhà B1, được sự
+          đồng ý của Đoàn thanh niên Trường Đại...</span
+        >
+      </div>
+      
+      <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/HoiThaoVinBigdata.jpg"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong
+          >️Hội thảo: Giới thiệu Chương trình Đào tạo Kỹ sư AI Vingroup Cơ hội Đào tạo, việc làm và trải nghiệm môi trường làm việc chuyên nghiệp</strong
+        >
+        <br />
+
+        <span
+          >️NẮM BẮT CƠ HỘI TRỞ THÀNH KỸ SƯ AI VINGROUP Nếu bạn đang băn khoăn...</span
+        >
+      </div>
+
+      <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/SVNCKH2021.png"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong
+          >️HỘI NGHỊ SINH VIÊN NGHIÊN CỨU KHOA HỌC 2021-2022</strong
+        >
+        <br />
+
+        <span
+          >️I. MỤC ĐÍCH Hội nghị Sinh viên nghiên cứu khoa học (SV NCKH) là sự kiện...</span
+        >
+      </div>
+
+
+      <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/Trao-bang-ky-2021.1B.png"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong
+          >️THÔNG BÁO VỀ VIỆC TỔ CHỨC TRẢ HỒ SƠ VÀ BẰNG TỐT NGHIỆP CHO SINH VIÊN TRƯỜNG CNTT&TT KỲ 2021.1B</strong
+        >
+        <br />
+
+        <span
+          >️Ngày 15/05/2022, Trường CNTT&TT và các đơn vị phối hợp tổ chức trả bằng và...</span
+        >
+      </div>
+
+
+      <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/SoICT_Timeline-TTDN-2021.3.png"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong
+          >️THÔNG BÁO VỀ THỰC TẬP DOANH NGHIỆP KỲ 2021.3</strong
+        >
+        <br />
+
+        <span
+          >️Trường CNTT&TT thông báo quy trình đăng ký Thực tập Doanh nghiệp (TTDN) kỳ hè...</span
+        >
+      </div>
+
+       <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/IMG_1651507570048_1651507626090-2.jpg"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong
+          >️HỘI THẢO KHOA HỌC VỀ CÁC XU THẾ HIỆN TẠI VÀ TƯƠNG LAI TRONG KHOA HỌC DỮ LIỆU VÀ TRÍ TUỆ NHÂN TẠO</strong
+        >
+        <br />
+
+        <span
+          >️  Thời gian: 14h-17h30, thứ 6 ngày 06/05/2022 Địa điểm: Hội trường dốc, tầng 3...</span
+        >
+      </div>
+
+
+        <div class="news">
+        <div class="img_new">
+          <img
+            src="https://soict.hust.edu.vn/wp-content/uploads/20220429-Thuc-tap-tai-NII.png"
+            height="142px"
+            width="300px"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <strong
+          >️CHƯƠNG TRÌNH THỰC TẬP CHO HỌC VIÊN CAO HỌC, NGHIÊN CỨU SINH TẠI VIỆN TIN HỌC QUỐC GIA NHẬT BẢN NĂM 2022</strong
+        >
+        <br />
+
+        <span
+          >️ Trong khuôn khổ hợp tác giữa Trường Công nghệ Thông tin và Truyền thông (CNTT&TT)...</span
+        >
+      </div>
+
+        </div>
+
+        <div class="section_right">
+
+            <h3>TIN NỔI BẬT</h3>
+            <hr style="color:red; width:50px; height:5px">
+
+            <div class="menu">
+
+            </div>
+            <ul>
+                <li><a href="">
+                    THÔNG BÁO TUYỂN GIẢNG VIÊN NGÀNH CÔNG NGHỆ THÔNG TIN
+                </a></li> <br>
+                <li><a href="">
+                    INVITATION TO JOIN BK.AI RESEARCH GROUPS 2021
+                </a></li><br>
+                <li><a href="">
+                    THÔNG BÁO VỀ ĐĂNG KÝ LỚP HỌC PHẦN THỰC TẬP DOANH NGHIỆP KỲ HÈ 2020.3
+                </a></li><br>
+                <li><a href="">
+                    TĂNG CƯỜNG LỢI THẾ CẠNH TRANH DỰA TRÊN CÔNG NGHỆ SỐ, TẠO ĐỘT PHÁ TRONG MỌI MẶT HOẠT ĐỘNG
+                </a></li><br>
+                <li><a href="">
+                    ĐẦU TƯ CHO NCKH VÀ ĐT TRÌNH ĐỘ CAO TRONG TRƯỜNG ĐẠI HỌC: ĐIỂM ĐỘT PHÁ TRONG QUÁ TRÌNH CHUYỂN ĐỔI SỐ TẠI VN
+                </a></li><br>
+                <li><a href="">
+                    TUYỂN DỤNG 2020
+                </a></li><br>
+                <li><a href="">
+                    SOICT YEAR-END REVIEW 2019
+                </a></li><br>
+                <li><a href="">
+                    HỘI THẢO QUỐC TẾ THƯỜNG NIÊN SOICT - 10 NĂM MỘT CHẶNG ĐƯỜNG
+                </a></li><br>
+                 <li><a href="">
+                    HUST-SOICT'S TALK, SỐ 2: BẢN GIAO HƯỞNG MÙA THU VỀ KHỞI NGHIỆP!
+                </a></li><br>
+                 <li><a href="">
+                    DẤU ẤN CNTT BÁCH KHOA TRONG 15 MÙA NHÂN TÀI ĐẤT VIỆT
+                </a></li><br>
+            </ul>
+
+
+             <h3>BÀI VIẾT MỚI NHẤT</h3>
+            <hr style="color:red; width:50px; height:5px">
+
+            <div class="menu">
+
+            </div>
+            <ul>
+                <li><a href="">
+                    VÒNG CHUNG KẾT BKAI-NAVER CHALLENGE 2022
+                </a></li> <br>
+                <li><a href="">
+                   INNOVATION DAY VÀ CUỘC THI SÁNG TẠO Ý TƯỞNG SINH VIÊN CREATIVE IDEA CHALLENGE 2022
+                </a></li><br>
+                <li><a href="">
+                    SOICT đồng hành và hỗ trợ sinh viên Nguyễn Văn Quyền
+                </a></li><br>
+                <li><a href="">
+                   ️TỔNG KẾT ĐẠI HỘI ĐẠI BIỂU ĐOÀN THANH NIÊN TRƯỜNG CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG – NHIỆM KỲ 2022-2024
+                </a></li><br>
+                <li><a href="">
+                   Hội thảo: Giới thiệu Chương trình Đào tạo Kỹ sư AI Vingroup Cơ hội Đào tạo, việc làm và trải nghiệm môi trường làm việc chuyên nghiệp
+                </a></li>
+                
+            </ul>
+
+
+        </div>
+
+   </section>
+       
+
+<div class="footer">
+    <footer class="py-5">
+    <div class="row">
+      <div class="col-2">
+        <h5>KHOA - TRUNG TÂM</h5>
+        <hr>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Khoa học Máy tính</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kỹ thuật Máy tính</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trung tâm Cyber Security</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trung tâm Đổi mới Sáng tạo</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trung tâm Máy tính và Thực hành</a></li>
+           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trung tậm Nghiên cứu Quốc tế về Định vị sử dụng vệ tinh (NAVIS)</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trung tâm Nghiên cứu Quốc tế về Trí tuệ nhân tạo</a></li>
+             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Văn Phòng Trường</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>CHƯƠNG TRÌNH ĐÀO TẠO</h5>
+        <hr>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chương trình Việt Nhật (HEDSPI)</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chương trình Global ICT</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chương trình Khoa học dữ liệu và trí tuệ nhân tạo</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chương trình Thạc sỹ Chuyển đổi số</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Các chương trình đại học</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Các chương trình thạc sỹ</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Các chương trình tiến sỹ</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Các chương trình đào tạo ngắn hạn</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>HỆ THỐNG VÀ TÀI NGUYÊN</h5>
+        <hr>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hệ thống Quản lý Đào tạo</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hệ thống Quản lý Hợp tác Doanh nghiệp</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Các mẫu biểu dành cho sinh viên Viện</a></li>
+        </ul>
+      </div>
+
+      <div class="col-4 offset-1">
+        <img src="https://soict.hust.edu.vn/wp-content/uploads/2019/04/soict-light-logo-300x66.png" alt="" srcset=""><br>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg>(+84) 24 3869 2463<br>
+       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+</svg> vp@soict.hust.edu.vn<br>
+        P. 505 – Nhà B1 – Đại học Bách khoa Hà Nội
+
+Số 1 Đại Cồ Việt – Hai Bà Trưng – Hà Nội
+    </div>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p>© 2021 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+</footer>
+
+</div>
+
+    
+
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
